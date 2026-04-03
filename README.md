@@ -5,7 +5,7 @@ This project estimates potential portfolio losses using Value at Risk (VaR) and 
 
 ## Methods
 - Historical VaR (percentile-based)
-- Monte Carlo simulation
+- Monte Carlo VaR (normal distribution-based simulation)
 - Backtesting using violation analysis
 
 ## Approach
@@ -17,7 +17,7 @@ This project estimates potential portfolio losses using Value at Risk (VaR) and 
 ## Results
 - 95% VaR ≈ -2.5%  
 - 99% VaR ≈ -4.2%  
-- Backtesting violation rates aligned closely with expected levels (~5% and ~1%)
+- Backtesting violation rates (~5% and ~1%) aligned with expected confidence levels
 
 ## Key Insights
 - Historical VaR captures extreme market movements more effectively  
